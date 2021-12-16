@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('layouts/header') -%>
+<body>
+  <%- include('layouts/navbar') -%>
+
+  <div class="container-main card p-2 mt-5 mb-5">
+      <h1 class="display-4">Shared Stories</h1>
+      <hr />
+      <div class="row row-cols-8 mx-auto py-2">
+          <img src="/img/hiking.png" class="max-img img-thumbnail" alt="image" />
+          <span class="lead mt-3">
+              On October 2019, I went for a hike and came across a Bison. 
+              Never seen one before and new to me. When I had seen it walk out, 
+              it had brought a smaller one right behind it. I stuck around 
+              to see what happened next and it was if we shared the idea of 
+              taking a stroll in the woods. <br>
+              <a href="mailto#!" class="btn btn-outline-info">Message Member</a>
+          </span>
+          <p class="card-footer mt-4">
+              Posted By Stefanie Blake, On March 2021
+          </p>
+      </div>
+  </div>
+  <%- include('layouts/footer') -%>
+</body>
+<!-- MDB -->
+<%- include('layouts/scripts') -%>
+</html>

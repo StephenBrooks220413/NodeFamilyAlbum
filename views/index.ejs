@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('layouts/header') -%>
+<body>
+  <%- include('layouts/navbar') -%>
+
+  <div class="main">
+    <div class="container">
+      <div class="row text-white row-cols-8 mx-auto">
+        <h1 
+        data-mdb-toggle="animation"
+        data-mdb-animation="fade-in-down"
+        data-mdb-animation-start="onLoad"
+        class="display-4">
+          Family Album & Communication
+        </h1>
+        <p 
+        data-mdb-toggle="animation"
+        data-mdb-animation="fade-in-up"
+        data-mdb-animation-start="onLoad"
+        data-mdb-animation-delay="300"
+        class="text-white lead">
+          Sign Up for Access and Share Memories Right Away.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="home-bg">
+    <div class="container mt-2">
+      <br>
+      <div class="row pb-4">
+        <div 
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="slide-in-left"
+          class="col-md"
+        >
+          <h1 class="display-6">Photos Only For You</h1>
+          <hr />
+          <p class="lead">
+            Wanting to get in touch with family or share memories without the hassle of social media or being 
+            exposed to everyone?
+          </p>
+          <a class="btn btn-primary" href="/auth/register">
+            Register
+          </a>
+          <a class="btn btn-info" href="/auth/login">
+            Login
+          </a>
+        </div>
+        <div 
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="slide-in-right"
+          class="col-md"
+        >
+          <img class="img-fluid shadow-2-strong rounded" src="/img/main-img.png" alt="">
+        </div>
+      </div>
+
+      <div class="card mt-5 text-center">
+        <div class="card-header">
+          <h1 class="display-5">Shared Photos</h1>
+        </div>
+        <p class="card-body text-center">
+          <p class="lead">
+            Uploads images of your old photos to a database in the cloud that is 
+            used by millions. MongoDB <img src="/img/MongoDB.png" height="30px" alt="mongodb">, a nosql database.
+ 
+          </p>
+          <div class="container">
+                      <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+              <img
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg"
+                class="img-fluid shadow-1-strong rounded"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <img
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in"
+                data-mdb-animation-delay="300"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.jpg"
+                class="img-fluid shadow-1-strong rounded"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <img
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in"
+                data-mdb-animation-delay="500"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.jpg"
+                class="img-fluid shadow-1-strong rounded"
+              />
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+              <img
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+                class="img-fluid shadow-1-strong rounded"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <img
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in"
+                data-mdb-animation-delay="300"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/045.jpg"
+                class="img-fluid shadow-1-strong rounded"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <img
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in"
+                data-mdb-animation-delay="500"
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/046.jpg"
+                class="img-fluid shadow-1-strong rounded"
+              />
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row -->
+          </div>
+        </p>
+        <p class="card-footer">
+          Examples of photos uploaded
+        </p>
+      </div>
+
+      <div class="text-center mt-5">
+        <h3>Created by
+          <a href="https://www.clear-web-designs.com" target="_blank">
+            <img src="/img/logo-cwd.png" height="25px" alt="cwd" />
+          </a> 
+        </h3>
+      </div>
+
+    </div>
+  </div>
+
+  <%- include('layouts/footer') -%>
+</body>
+<!-- MDB -->
+<%- include('layouts/scripts') -%>
+</html>

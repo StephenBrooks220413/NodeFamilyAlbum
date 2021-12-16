@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('layouts/header') -%>
+<body>
+  <%- include('layouts/navbar') -%>
+
+    <div class="container-main card p-5 mt-3 mb-5">
+        <h1 class="display-4 mb-5">Share a Memory</h1>
+
+      <form class="mt-3" action="/pictures/store" method="POST" enctype="multipart/form-data">
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" required name="title" id="title" class="form-control" />
+            <label class="form-label">Post Title</label>
+          </div>
+
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="email" required name="email" id="email" class="form-control" />
+            <label class="form-label">Email</label>
+          </div>
+
+          <!-- image -->
+          <div class="form-outline mb-4">
+            Choose An Image
+            <input type="file" required name="image" id="image" class="form-control" />
+          </div>
+
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+      </form>
+
+    </div>
+  <%- include('layouts/footer') -%>
+</body>
+<!-- MDB -->
+<%- include('layouts/scripts') -%>
+</html>
